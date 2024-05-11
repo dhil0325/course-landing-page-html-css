@@ -1,14 +1,19 @@
-.main-container, * {
+* {
     margin: 0;
     padding: 0;
 }
 
+.main-container {
+    background: #ffffff;
+}
+
 .container-wrapper{
+    height: 80px;
     margin: 0 auto;
+    max-width: 1140px;
     display: flex;
-    background: white;
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .container-logo{
@@ -43,7 +48,7 @@
     position: relative;
     height: 24px;
     color: #101828;
-    font-family: Poppins, var(--default-font-family);
+    font-family: "Poppins";
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -58,7 +63,7 @@
     position: relative;
     height: 24px;
     color: #101828;
-    font-family: Poppins, var(--default-font-family);
+    font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -73,7 +78,7 @@
     position: relative;
     height: 24px;
     color: #101828;
-    font-family: Poppins, var(--default-font-family);
+    font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -88,7 +93,7 @@
     position: relative;
     height: 24px;
     color: #101828;
-    font-family: Poppins, var(--default-font-family);
+    font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -103,7 +108,7 @@
     position: relative;
     height: 24px;
     color: #101828;
-    font-family: Poppins, var(--default-font-family);
+    font-family: "Poppins";
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -114,57 +119,34 @@
 
 .container-button {
     display: flex;
-    gap: 10px;
+    gap: 24px;
     border: 1px;
     box-sizing: border-box;
     justify-content: center;
 }
 
 .frame {
-    display: flex;
-    color: #ffffff;
-    border-radius: 10px;
-    max-width: 170px;
-    top: 16px;
-    left: 926px;
-    background-color: #545BE8;
-    border: 1px bold;
-    border-color: #545BE8;
-    padding: 13px 49px 13px 49px;
-    gap: 10px;
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 18px;
-    justify-content: center;
     width: 170px;
-    height: 48px;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Inter";
+    background: #545BE8;
+    color: white;
+    border: none;
 }
 
 .frame-1 {
-    display: flex;
-    color: #545BE8;
-    border-radius: 10px;
-    max-width: 170px;
-    top: 16px;
-    left: 926px;
-    background-color: white;
-    border: 1px bold;
-    border-color: #545BE8;
-    padding: 13px 49px 13px 49px;
-    gap: 10px;
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 18px;
-    justify-content: center;
     width: 170px;
-    height: 48px;
-}
-.rectangle {
-    position: relative;
-    width: 1440px;
-    height: 705px;
-    margin: -1px 0 0 -2px;
-    background: #f5f5f5;
+    padding: 13px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Inter";
+    background: white;
+    color: #545BE8;
+    border: 1px solid #545BE8;
 }
 
 .banner-main {
