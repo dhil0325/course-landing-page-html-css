@@ -304,6 +304,9 @@
     width: 40px;
 }
 
+#play-1 {
+    transform: rotate(180deg);
+}
 .selected-course {
     background-image: linear-gradient(to bottom, #545BE8 , #272DB0);
 }
